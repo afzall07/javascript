@@ -35,3 +35,29 @@ let myObj = {
 const myFunction = function () {
     console.log("Hello World");
 }
+
+// ================================
+
+ // Stack memory (use in Primitive dt),  Heap memory (use in Non-Primitive dt)
+
+ let myNameOne = "Afzal";
+
+ let myNametwo = myNameOne;
+ myNametwo = "Kabir";
+
+//  console.log(myNameOne);
+//  console.log(myNametwo);
+
+ // heap memory ===================
+
+ let userOne = {
+    email: "afjalmalik@gmail.com",
+    password: 2345
+ }
+
+ let userTwo = userOne;
+ userTwo.email = "kabirmalik@gmail.com"
+
+ 
+ console.log(userOne.email);
+ console.log(userTwo.email);
