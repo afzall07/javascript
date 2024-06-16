@@ -53,7 +53,7 @@ function addone(num) {
 }
 
 
-addTwo(5)
+addTwo(5)          // : Cannot access 'addTwo' before initialization
 const addTwo = function (num) {
     return num + 2
 }
