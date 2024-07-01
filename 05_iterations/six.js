@@ -23,7 +23,6 @@ const myNums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 // })
 
 // console.log(newNums);
-
 const books = [
     { title: "book1", genre: 'Fiction', publish: 1981, edition: 2004 },
     { title: "book2", genre: 'Non-Fiction', publish: 1992, edition: 2008 },
