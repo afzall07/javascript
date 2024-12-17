@@ -1,0 +1,30 @@
+body{
+    display: grid;
+    place-items: center;
+
+}
+
+.button{
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    margin-right: 15px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+#grey{
+    background: grey;
+}
+#red{
+    background: red;
+}
+#blue{
+    background: blue;
+}
+#green{
+    background: green;
+}
+#purple{
+    background: purple;
+}
