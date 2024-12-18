@@ -4,27 +4,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>BMI Generator</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-
-
     <div class="container">
         <h1>BMI Generator</h1>
         <form>
             <p>
-                <label for="">Height in cm:</label>
-                <input type="text" id="height">
+                <label for="height">Height in cm:</label>
+                <input type="text" id="height" placeholder="Enter your height">
             </p>
             <p>
-                <label for="">Weight in kg:</label>
-                <input type="text" id="weight">
+                <label for="weight">Weight in kg:</label>
+                <input type="text" id="weight" placeholder="Enter your weight">
             </p>
             <button type="submit">Calculate</button>
-
-
         </form>
         <div id="results"></div>
         <div class="weight-guide">
@@ -34,8 +30,7 @@
             <p>Over Weight = Greater than 24.9 kg</p>
         </div>
     </div>
-
+    <script type="module" src="./project.js"></script>
 </body>
-<script type="module" src="./project.js"></script>
 
 </html>
