@@ -1,0 +1,73 @@
+/* Background and font styling */
+body {
+  background-color: #0a082b;
+  font-family: Arial, sans-serif;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+/* Heading */
+h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Container */
+.container {
+  background: white;
+  color: black;
+  padding: 20px 30px;
+  border-radius: 20px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  width: 400px;
+}
+
+/* Input field */
+#text-input {
+  width: 80%;
+  padding: 10px;
+  font-size: 1rem;
+  border: none;
+  border-bottom: 2px solid purple;
+  outline: none;
+  transition: all 0.3s ease-in-out;
+}
+
+#text-input:focus {
+  border-bottom: 2px solid #6200ea;
+}
+
+/* Button */
+#check-btn {
+  background-color: purple;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 20px;
+  margin: 10px 0;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out, transform 0.2s ease;
+}
+
+#check-btn:hover {
+  background-color: #6200ea;
+  transform: scale(1.05);
+}
+
+/* Result box */
+.result-box {
+  margin-top: 20px;
+  background: #014d1a;
+  padding: 15px;
+  border-radius: 15px;
+  font-size: 1rem;
+  width: 400px;
+}
