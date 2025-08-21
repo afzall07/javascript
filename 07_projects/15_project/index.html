@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RPG Creature Search App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <main class="app" role="main">
+        <h1>RPG Creature Search</h1>
+
+        <div class="search">
+            <input id="search-input" type="text" placeholder="Search by name or ID (e.g., Pyrolynx or 1)" required />
+            <button id="search-button" type="button">Search</button>
+        </div>
+
+        <div class="grid">
+            <section class="card">
+
+                <div class="meta">
+                    <div id="weight" class="pill">Weight: —</div>
+                    <div id="height" class="pill">Height: —</div>
+                </div>
+            </section>
+
+            <section class="card">
+                <div class="name-row">
+                    <div id="creature-name">—</div>
+                    <div id="creature-id"></div>
+                </div>
+                <div>
+                    <div class="label types-label">Types</div>
+                    <div id="types" class="types" aria-live="polite"></div>
+                </div>
+                <div class="stats">
+                    <div class="stat">
+                        <div class="label">HP</div>
+                        <div id="hp" class="value">—</div>
+                    </div>
+                    <div class="stat">
+                        <div class="label">Attack</div>
+                        <div id="attack" class="value">—</div>
+                    </div>
+                    <div class="stat">
+                        <div class="label">Defense</div>
+                        <div id="defense" class="value">—</div>
+                    </div>
+                    <div class="stat">
+                        <div class="label">Special Attack</div>
+                        <div id="special-attack" class="value">—</div>
+                    </div>
+                    <div class="stat">
+                        <div class="label">Special Defense</div>
+                        <div id="special-defense" class="value">—</div>
+                    </div>
+                    <div class="stat">
+                        <div class="label">Speed</div>
+                        <div id="speed" class="value">—</div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
